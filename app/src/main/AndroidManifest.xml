@@ -23,16 +23,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".ui.activities.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/MyMaterialTheme" />
-
-        <activity android:name=".ui.activities.MovieDetailActivity"
-            android:theme="@style/MyMaterialTheme">
-
-        </activity>
+        <activity
+            android:name=".ui.activities.MovieDetailActivity"
+            android:theme="@style/MyMaterialTheme"></activity>
+        <activity
+            android:name=".ui.activities.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/MyMaterialTheme"></activity>
     </application>
 
 </manifest>
